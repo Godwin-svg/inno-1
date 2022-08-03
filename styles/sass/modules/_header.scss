@@ -1,0 +1,19 @@
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.479)), url(../../../images/pexels-zhanzat-mamytova-1827130.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    &__hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+        text-align: center;
+        color: #fff;
+        padding: 3rem 0;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.473);
+    }
+}

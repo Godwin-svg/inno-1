@@ -1,0 +1,40 @@
+.header__content {
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    padding: 1rem 0;
+    align-items: center;
+    @include phone {
+        flex-direction: column;
+    }
+    &__border {
+        color: red;
+    }
+}
+
+.header__icons {
+    i {
+        font-size: 2rem;
+        color: #fff;
+        margin-right: .5rem;
+    }
+}
+
+.header__form {
+    padding: 2rem 1rem;
+}
+
+.header__input {
+    padding: .8rem 1.5rem;
+    border-radius: 2px;
+    border: none;
+}
+
+.header__btn {
+    font-size: 1.2rem;
+    color: #555;
+    text-decoration: none;
+    margin-left: 1rem;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+}

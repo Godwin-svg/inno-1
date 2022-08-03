@@ -1,0 +1,66 @@
+.reviews {
+    padding: 4rem 2rem;
+    border: 1px solid rgba(85, 85, 85, 0.274);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        @include phone {
+            flex-direction: column;
+        }
+    }
+}
+
+.review {
+    border: 1px solid rgba(85, 85, 85, 0.274);
+    width: 48%;
+    padding: .7rem 1rem;
+    margin: .5rem;
+    box-sizing: border-box;
+    @include phone {
+        width: 100%;
+    }
+    &__user {
+        width: 100%;
+    }
+    &__Image {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        margin-right: 2rem;
+    }
+    &__Img {
+        height: 100%;
+        width: 100%;
+    }
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+    &__title {
+        margin: 0 0 .4rem 0;
+        color: #999;
+        font-weight: 200;
+        font-size: 1.6rem;
+        @include phone {
+            font-size: 1rem;
+        }
+    }
+    &__location {
+        margin: 0;
+    }
+    &__icon {
+        color: #999;
+        font-size: 1.1rem;
+    }
+    &__text {
+        color: #999;
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    &--info {
+        display: flex;
+        flex-direction: column;
+    }
+}

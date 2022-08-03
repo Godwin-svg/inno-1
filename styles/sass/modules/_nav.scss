@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #fff;
+    display: flex;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+    align-items: center;
+    padding: .6rem 0;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        @include phone {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__list {
+        display: flex;
+        list-style: none;
+    }
+    &__item {
+        margin-left: 1.5rem;
+    }
+    &__link {
+        text-decoration: none;
+        color: #555;
+    }
+    &__logo {
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,65 @@
+.products {
+    padding: 8rem 2rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.5)), url(../../../images/pexels-lukas-317371.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    &__content {
+        display: flex;
+        justify-content: space-around;
+        @include phone {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+.product {
+    width: 20%;
+    box-shadow: 2px 2px 4px #000;
+    @include phone {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    &__img--contaier {
+        width: 100%;
+        height: 12rem;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+    }
+    &__title {
+        color: #999;
+        margin-bottom: 0;
+    }
+    &__author {
+        font-size: .8rem;
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        padding: 1rem 2rem 1rem 1rem;
+        position: relative;
+    }
+    &__price {
+        font-weight: bold;
+    }
+    &__icon {
+        color: orange;
+    }
+    &__btn {
+        padding: .7re 1rem;
+        color: red;
+        text-decoration: none;
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+        display: inline-block;
+        border: 1px white solid;
+    }
+}

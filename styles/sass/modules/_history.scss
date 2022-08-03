@@ -1,0 +1,33 @@
+.history {
+    padding: 2rem 2rem;
+    &__content {
+        display: flex;
+    }
+    &__img--container {
+        background-image: url(../../../images/pexels-zhanzat-mamytova-1827130.jpg);
+        width: 40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 1.5rem;
+        height: 30rem;
+        background-attachment: fixed;
+        clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+    }
+    &__text {
+        width: 60%;
+        box-shadow: 2px 2px 4px #000;
+        text-align: center;
+    }
+    &__image {
+        height: 100%;
+        width: 100%;
+    }
+    &__ttitle {
+        font-size: 2rem;
+    }
+    &__desc {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        margin-bottom: 2rem;
+    }
+}
