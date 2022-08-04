@@ -81,7 +81,7 @@ body {
 }
 
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.479)), url(../../../images/pexels-zhanzat-mamytova-1827130.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.479)), url(./../images/pexels-zhanzat-mamytova-1827130.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -272,7 +272,7 @@ body {
   display: flex;
 }
 .history__img--container {
-  background-image: url(../../../images/pexels-zhanzat-mamytova-1827130.jpg);
+  background-image: url(./../images/pexels-zhanzat-mamytova-1827130.jpg);
   width: 40%;
   background-size: cover;
   background-repeat: no-repeat;
